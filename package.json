@@ -1,20 +1,17 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "a backeend at chai aur code chhannel -youtube",
+  "type":"module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "dev":"nodemon  -r dotenv/config --experimental-json-modules  src/index.js"
+   },
   "keywords": [
     "javascript",
     "backend",
     "chai"
   ],
   "author": "Faisal Imtiyaz",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.4",
-    "prettier": "^3.3.3"
-  }
+  "license": "ISC"
 }
