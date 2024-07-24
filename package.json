@@ -2,16 +2,20 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "a backeend at chai aur code chhannel -youtube",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon  -r dotenv/config --experimental-json-modules  src/index.js"
-   },
+    "dev": "nodemon  -r dotenv/config --experimental-json-modules  src/index.js"
+  },
   "keywords": [
     "javascript",
     "backend",
     "chai"
   ],
   "author": "Faisal Imtiyaz",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5"
+  }
 }
